@@ -1,0 +1,43 @@
+Pseudo Code:
+
+Algorithm 1:
+
+1. Start
+2. Calling the function GetMaxMarks(marks) to get highest marks and passing it array of marks.
+3. Storing highest marks in varibale maxMarks = GetMaxMarks(marks);
+4. Printing the marks received in  maxMarks variable, System.out.println("Highest marks obtained in this unit are: "+ maxMarks);       
+5. Calling the function GetMinMarks(marks) to get lowest marks and passing it array of marks.
+6. Storing lowest marks in varibale minMarks = GetMinMarks(marks);
+7. Printing the marks received in  minMarks variable, System.out.println("Lowest marks obtained in this unit are: "+ minMarks);         
+8. Declaring a public function which receives array of marks in double variable.     
+9. Declaring and intializing the maxValue variable with array first element value, double maxValue = marksReceived[0];      
+10. Executing for loop till the length of Array to itirritate through the Array of marks, for(int k=0;k<marksReceived.length;k++){
+11. Checking of current value is greater than the value stored in maxValue variable.
+12. If current value in the array list is greater then storing it to the MaxValue variable
+13. Return the maxValue to the function call. 
+14. Closing the function.
+15. Declaring a new public function which receives array of marks in double variable to calculate lowest marks.     
+16. Declaring and intializing the minValue variable with array first element value, double minValue = marksReceived[0];      
+17. Executing for loop till the length of Array to itirritate through the Array of marks, for(int k=0;k<marksReceived.length;k++){
+18. Checking of current value is lower than the value stored in minValue variable.
+19. If current value in the array list is lower then storing it to the minValue variable
+20. Return the minValue to the function call.
+21. Closing the function.    
+22. End
+
+
+Algorithm 2:
+
+1. Start
+2. Declaring and intializing variable meanValue  to calculate the meanValue of the marks.
+3. Declaring and intializing variable sum  to calculate the sum of the marks.
+4. Declaring and intializing variable sum2 to calculate the sum of the marks to use in deviation calculation function.
+5. Declaring and intializing variable dev to calculate the standard deviation of the marks.
+6. Starting for loop till the length of marks array.
+7. Adding up the values of marks in sum variable
+8. Calculating the Mean Value by using mean value formula meanValue = sum/marks.length;      
+9. Again Starting for loop till the length of marks array.        
+10. Calculating sum for deviation by following formula sum2 = sum2 + Math.pow(marks[n] - meanValue, 2);
+11. Loop ends Calculating sum for deviation by following formula dev = Math.sqrt(sum2/(marks.length-1));
+12. Printing the mean and standard deviation of the marks.
+13. End
