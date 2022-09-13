@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=StudentMarks
+comment0.text=\r\n\ PROG5001\ Assignment\ 1\r\n\ @author\ (Muhammad\ Kashif\ -\ Student\ ID\:\ 23598588)\r\n\ @version\ (Final\ version)\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=marksReceived
+comment2.target=double\ GetMaxMarks(double[])
+comment3.params=marksReceived
+comment3.target=double\ GetMinMarks(double[])
+numComments=4
